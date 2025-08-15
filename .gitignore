@@ -1,0 +1,26 @@
+# --- Virtual Environment ---
+# Ignore the virtual environment folder, which contains all installed packages.
+venv/
+.venv/
+
+# --- Python Cache ---
+# Ignore Python's automatically generated cache and bytecode files.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- IDE / Editor specific files ---
+# Ignore settings and cache files from popular editors like VS Code.
+.vscode/
+.idea/
+
+# --- Local Secrets ---
+# IMPORTANT: Never commit files containing sensitive information like API keys.
+# Although we use secrets.toml, this is an extra safeguard.
+api.txt
+*.env
+
+# --- Streamlit ---
+# Ignore Streamlit's local configuration.
+.streamlit/secrets.toml
